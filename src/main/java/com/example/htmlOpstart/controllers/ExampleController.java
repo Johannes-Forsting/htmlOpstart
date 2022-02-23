@@ -6,13 +6,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class ExampleController {
 
-    @GetMapping("/test")
+    @GetMapping("/")
     public String test(){
         return "index";
     }
 
-    @GetMapping("/error")
+    @GetMapping("/følg-udviklingen")
     public String error(){
-        return "error";
+        return "articleFishFinger";
     }
 }
